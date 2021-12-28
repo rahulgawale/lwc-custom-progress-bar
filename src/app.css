@@ -12,3 +12,7 @@ p {
     height: 100vh;
     overflow: scroll;
 }
+
+:host {
+    --sds-c-textarea-sizing-min-height: 300px;
+}
