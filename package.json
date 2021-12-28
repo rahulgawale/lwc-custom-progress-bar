@@ -1,6 +1,6 @@
 {
   "name": "@wcd/rahulgawale.lwc-custom-progress-bar",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "scripts": {
     "serve": "npx wcd-cli@latest serve nSgFj6th4VSZNM1Cjd2U --open"
   }
