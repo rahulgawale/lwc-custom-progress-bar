@@ -5,49 +5,49 @@
 		<h1 class="slds-text-heading_medium slds-p-top_small">Configure</h1>
 
 		<lightning-layout multiple-rows>
-			<lightning-layout-item class="slds-var-p-around_xx-small" size="12" small-device-size="6" medium-device-size="4"
+			<lightning-layout-item class="slds-var-p-around_xx-small" size="12" small-device-size="3" medium-device-size="3"
 				large-device-size="3">
 				<lightning-input name="value" class="slds-p-top_x-small" type="number" min="0" max="100" label="Value"
 					value={value} onchange={handleChange}>
 				</lightning-input>
 			</lightning-layout-item>
 
-			<lightning-layout-item class="slds-var-p-around_xx-small" size="12" small-device-size="6" medium-device-size="4"
+			<lightning-layout-item class="slds-var-p-around_xx-small" size="12" small-device-size="3" medium-device-size="3"
 				large-device-size="3">
 				<lightning-combobox name="variant" class="slds-p-top_x-small" label="Variant" value={variant}
 					onchange={handleChange} options={variantOptions}>
 				</lightning-combobox>
 			</lightning-layout-item>
 
-			<lightning-layout-item class="slds-var-p-around_xx-small" size="12" small-device-size="6" medium-device-size="4"
+			<lightning-layout-item class="slds-var-p-around_xx-small" size="12" small-device-size="3" medium-device-size="3"
 				large-device-size="3">
 				<lightning-input name="customColor" class="slds-p-top_x-small" label="Custom Color" value={customColor}
 					onchange={handleChange}>
 				</lightning-input>
 			</lightning-layout-item>
 
-			<lightning-layout-item class="slds-var-p-around_xx-small" size="12" small-device-size="6" medium-device-size="4"
+			<lightning-layout-item class="slds-var-p-around_xx-small" size="12" small-device-size="3" medium-device-size="3"
 				large-device-size="3">
 				<lightning-combobox name="size" class="slds-p-top_x-small" label="Size" value={size} onchange={handleChange}
 					options={sizeOptions}>
 				</lightning-combobox>
 			</lightning-layout-item>
 
-			<lightning-layout-item class="slds-var-p-around_xx-small" size="12" small-device-size="6" medium-device-size="4"
+			<lightning-layout-item class="slds-var-p-around_xx-small" size="12" small-device-size="3" medium-device-size="3"
 				large-device-size="3">
 				<lightning-combobox name="radius" class="slds-p-top_x-small" label="Radius" value={radius}
 					onchange={handleChange} options={radiusOptions}>
 				</lightning-combobox>
 			</lightning-layout-item>
 
-			<lightning-layout-item class="slds-var-p-around_xx-small" size="12" small-device-size="6" medium-device-size="4"
+			<lightning-layout-item class="slds-var-p-around_xx-small" size="12" small-device-size="3" medium-device-size="3"
 				large-device-size="3">
 				<lightning-input type="checkbox" name="showDescription" class="slds-p-top_x-small" label="Show Description"
 					checked={showDescription} onchange={handleChangeCb}>
 				</lightning-input>
 			</lightning-layout-item>
 
-			<lightning-layout-item class="slds-var-p-around_xx-small" size="12" small-device-size="6" medium-device-size="4"
+			<lightning-layout-item class="slds-var-p-around_xx-small" size="12" small-device-size="3" medium-device-size="3"
 				large-device-size="3">
 				<lightning-textarea name="description" class="slds-p-top_x-small" label="Description" value={description}
 					onchange={handleChange}>
