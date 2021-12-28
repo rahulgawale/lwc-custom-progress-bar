@@ -1,0 +1,15 @@
+<template>
+  <div if:true={showDescription} class="slds-grid slds-grid_align-spread slds-p-bottom_x-small"
+    id="progress-bar-label-id-6">
+    <span>{description}</span>
+    <span aria-hidden="true">
+      <strong>{value}% Complete</strong>
+    </span>
+  </div>
+  <div class={classes} aria-valuemin="0" aria-valuemax="100" aria-valuenow={value} aria-label={areaLabel}
+    role="progressbar">
+    <span class="slds-progress-bar__value" style={style}>
+      <span class="slds-assistive-text">Progress: {value}%</span>
+    </span>
+  </div>
+</template>
